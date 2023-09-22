@@ -103,22 +103,74 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ### Procedure
 /* write all the steps invloved */
+# Step 1:
+Open Quartus II and select new project and choose the file location.
+# Step 2:
+Module Declaration. Module should have the file name.
+# Step 3:
+Declare Inputs and outputs.
+# Step 4:
+Use assign declaration and wire to define the functionality of logic circuits.
+# Step 5:
+End the program with endmodule.
+# Step 6:
+Run the program and choose RTL viewer to get RTL realization.
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: JEEVAGOWTHAM s
+RegisterNumber:  212222230053
 */
+# SR flip flop:
+```
+module exp05(s,r,q,qbar,cik);
+input s,r,cik;
+output reg q,qbar;
+initial q = 0;
+initial qbar = 1;
+always @(posedge cik)
+begin 
+q=s|(q&(~r));
+qbar=r|(qbar&(~s));
+end
+endmodule
+
+
+```
+
+# JK flip flop:
+```
+module exp52(j,k,q,qbar,cik);
+input j,k,cik;
+output reg q,qbar;
+initial q = 0;
+initial qbar = 1;
+always @(posedge cik)
+begin 
+q=((~q)&j)|(q&(~k));
+qbar=((~qbar)&k)| (qbar&(~j));
+end
+endmodule
+```
 
 
 
+### RTL LOGIC FOR FLIPFLOPS :
+# SR flipflop:
+![8015fe69-3d1f-4b5c-bc12-e7b07a705555](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/8db8e0a5-d1dc-42f7-976f-12411d17d9a3)
 
 
+<br>
+# JK flip flop:
 
-### RTL LOGIC FOR FLIPFLOPS 
+![Screenshot 2023-09-22 092923](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/92866357-63f6-4769-9239-411eddd79ec8)
+
+
+<br>
+<br>
 
 
 
@@ -130,11 +182,19 @@ RegisterNumber:
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+# SR flipflop:
+
+![f5ffd5fe-e1ea-4e7c-9e8f-5d81d5c66b7b](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/0c89ca27-b0ea-405b-b54b-d1fbcb23f205)
 
 
+<br>
 
+<br>
+# JK flip flop:
 
+![Screenshot (7)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/c69d63e1-9478-4478-8760-38937dafb761)
 
+<br>
 
-
-### RESULTS 
+### RESULTS :
+All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
