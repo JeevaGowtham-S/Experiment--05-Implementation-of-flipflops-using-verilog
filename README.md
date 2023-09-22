@@ -102,7 +102,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+
 # Step 1:
 Open Quartus II and select new project and choose the file location.
 # Step 2:
