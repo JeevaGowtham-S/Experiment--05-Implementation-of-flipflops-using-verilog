@@ -188,8 +188,9 @@ endmodule
 
 
 # JK flip flop:
+![Screenshot (8)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/390063d2-66b1-419e-867c-660db8ddf7fa)
 
-![Screenshot (7)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/c69d63e1-9478-4478-8760-38937dafb761)
+
 
 <br>
 
