@@ -163,14 +163,13 @@ endmodule
 ![8015fe69-3d1f-4b5c-bc12-e7b07a705555](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/8db8e0a5-d1dc-42f7-976f-12411d17d9a3)
 
 
-<br>
+
 # JK flip flop:
 
 ![Screenshot 2023-09-22 092923](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/92866357-63f6-4769-9239-411eddd79ec8)
 
 
-<br>
-<br>
+
 
 
 
@@ -187,9 +186,6 @@ endmodule
 ![f5ffd5fe-e1ea-4e7c-9e8f-5d81d5c66b7b](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/0c89ca27-b0ea-405b-b54b-d1fbcb23f205)
 
 
-<br>
-
-<br>
 # JK flip flop:
 
 ![Screenshot (7)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/c69d63e1-9478-4478-8760-38937dafb761)
