@@ -158,7 +158,7 @@ endmodule
 
 
 
-### RTL LOGIC FOR FLIPFLOPS :
+###RTL LOGIC FOR FLIPFLOPS :
 # SR flipflop:
 ![8015fe69-3d1f-4b5c-bc12-e7b07a705555](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/8db8e0a5-d1dc-42f7-976f-12411d17d9a3)
 
@@ -179,7 +179,7 @@ endmodule
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+## TIMING DIGRAMS FOR FLIP FLOPS 
 
 # SR flipflop:
 
