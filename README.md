@@ -1,4 +1,4 @@
-![image](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/028a0365-8a1f-48e0-8a61-cb10a67655c6)# Experiment--05-Implementation-of-flipflops-using-verilog
+# Experiment--05-Implementation-of-flipflops-using-verilog
 ### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
@@ -164,7 +164,7 @@ output q,qbar;
 reg q,qbar;
 always @(posedge clk)
 begin
-q<=(T&~q)|(~T&q);
+q=(T&~q)|(~T&q);
 qbar<=~q;
 end 
 endmodule
@@ -206,6 +206,9 @@ endmodule
 ![Screenshot (8)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/390063d2-66b1-419e-867c-660db8ddf7fa)
 
 
+# T flip flop:
+
+![Screenshot 2023-10-06 095710](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/b8b0b97c-0f0e-4c4c-adf4-c411b2a14f51)
 
 <br>
 
