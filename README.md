@@ -214,12 +214,11 @@ endmodule
 ## TIMING DIGRAMS FOR FLIP FLOPS 
 
 # SR flipflop:
-
-![f5ffd5fe-e1ea-4e7c-9e8f-5d81d5c66b7b](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/0c89ca27-b0ea-405b-b54b-d1fbcb23f205)
+![mdk](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/fcd2f91d-882f-46f2-a2c4-048a1d348d15)
 
 
 # JK flip flop:
-![Screenshot (8)](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/390063d2-66b1-419e-867c-660db8ddf7fa)
+![269827782-390063d2-66b1-419e-867c-660db8ddf7fa](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/d8718497-9255-4864-96bb-1e2d206d6bd2)
 
 
 # T flip flop:
