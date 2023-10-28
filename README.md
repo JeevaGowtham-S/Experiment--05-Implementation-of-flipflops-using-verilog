@@ -169,6 +169,21 @@ qbar<=~q;
 end 
 endmodule
 ```
+# D flip flop:
+```
+module D(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
 
 
 
@@ -189,7 +204,8 @@ endmodule
 ![Screenshot 2023-10-06 093906](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/1cffad67-925d-4027-b03a-bb51b9c0fdff)
 
 
-
+# D flip flop:
+![image](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/a36d3ea3-e4bc-4864-90d5-6848e2815241)
 
 
 
@@ -211,6 +227,11 @@ endmodule
 ![Screenshot 2023-10-06 095710](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/b8b0b97c-0f0e-4c4c-adf4-c411b2a14f51)
 
 <br>
+
+# D flip flop:
+![image](https://github.com/JeevaGowtham-S/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118042624/9fce6e32-fb37-4295-8fc1-c483a491b59c)
+
+
 
 ### RESULTS :
 All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
